@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<component name="com.warnerbros.zipconvertercontrib">
+
+  <require>org.nuxeo.ecm.platform.convert.plugins</require>
+
+  <extension target="org.nuxeo.ecm.core.convert.service.ConversionServiceImpl" point="converter">
+
+    <converter class="com.warnerbros.ecm.platform.plugins.Zip2HtmlConverterOverride" name="zip2html">
+      <destinationMimeType>text/html</destinationMimeType>
+      <sourceMimeType>application/zip</sourceMimeType>
+      <sourceMimeType>application/x-zip-compressed</sourceMimeType>
+    </converter>
+
+  </extension>
+
+</component>
