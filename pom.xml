@@ -16,6 +16,7 @@
 
   <modules>
     <module>nuxeo-custom-zip-converter-core</module>
+    <module>nuxeo-custom-zip-converter-package</module>
   </modules>
   <scm/>
   <licenses/>
@@ -78,6 +79,11 @@
       <dependency>
         <groupId>com.warnerbros</groupId>
         <artifactId>nuxeo-custom-zip-converter-core</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.warnerbros</groupId>
+        <artifactId>nuxeo-custom-zip-converter-package</artifactId>
         <version>${project.version}</version>
       </dependency>
     </dependencies>
